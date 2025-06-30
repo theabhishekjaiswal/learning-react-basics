@@ -5,6 +5,7 @@ import Probes from './pages/Probes'
 import App from './pages/App'
 import BackgroundChanger from './pages/BackgroundChanger'
 import BackgroundChanger2 from './pages/BackgroundChanger2'
+import PasswordGenerator from './pages/PasswordGenerator'
 
 
 createRoot(document.getElementById('root')).render(
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
     {/* <App/> */}
     {/* <Probes/> */}
     {/* <BackgroundChanger/> */}
-    <BackgroundChanger2/>
+    {/* <BackgroundChanger2/> */}
+    <PasswordGenerator/>
   </StrictMode>,
 )
